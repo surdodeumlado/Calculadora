@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(-25deg, rgb(119, 0, 36), crimson);
+    height: 100vh;
+    text-align: center;
+}
+
+.calculadora {
+    font-family: 'Pocket Calculator', sans-serif;
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    position: absolute;
+    background-color: rgb(14, 14, 14);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 15px 15px;
+    filter: drop-shadow(15px 15px 0px rgba(90, 1, 31, 0.5));
+}
+
+#resultado {
+    background-image: linear-gradient(0deg, rgb(37, 37, 37), rgb(0, 0, 0, 0.15));
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 40px;
+    margin: 0px 10px;
+    padding: 15px 0px;
+    padding-right: 10px;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.botao {
+    font-family: 'Pocket Calculator', sans-serif;
+    font-size: 30px;
+    width: 65px;
+    height: 50px;
+    padding: 5;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+    border: 1px outset rgb(5, 5, 5);
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px 7px 5px 7px;
+}
+
+.botao:hover {
+    background-color: rgb(32, 32, 32);
+    transition-duration: 0.05s;
+    border: 1px inset rgb(5, 5, 5);
+}
+
+.calculadora #zero {
+    width: 148px;
+    background-color: rgb(51, 51, 51);
+}
+
+.calculadora #zero:hover {
+    background-color: rgb(32, 32, 32);
+    transition-duration: 0.05s;
+}
+
+.calculadora #log {
+    width: 148px;
+    background-color: rgb(32, 32, 32);
+}
+
+.calculadora #log:hover {
+    background-color: rgb(51, 51, 51);
+    transition-duration: 0.05s;
+}
+
+.calculadora #buton {
+    background-color: rgb(32, 32, 32);
+}
+
+.calculadora #buton:hover {
+    background-color: rgb(51, 51, 51);
+    transition-duration: 0.05s;
+}
+
+.calculadora #clear {
+    background-color: rgb(73, 8, 19);
+    border: 1px outset rgb(34, 10, 20);
+}
+
+.calculadora #clear:hover {
+    background-color: crimson;
+    transition-duration: 0.05s;
+    border: 1px inset rgb(34, 10, 20);
+}
+
+.calculadora #igual {
+    height: 107px;
+    background-color: rgb(73, 8, 19);
+    border: 1px outset rgb(34, 10, 20);
+}
+
+.calculadora #igual:hover {
+    background-color: crimson;
+    transition-duration: 0.05s;
+    border: 1px inset rgb(34, 10, 20);
+}
